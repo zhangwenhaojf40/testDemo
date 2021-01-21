@@ -1,0 +1,1004 @@
+-- Merging decision tree log ---
+provider#com.qq.e.comm.GDTFileProvider
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:38:9-46:20
+	android:grantUriPermissions
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:42:13-47
+	android:authorities
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:40:13-68
+	android:exported
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:39:13-57
+provider#com.mintegral.msdk.base.utils.MTGFileProvider
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:402:9-410:20
+	android:grantUriPermissions
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:406:13-47
+	android:authorities
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:404:13-67
+	android:exported
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:405:13-37
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:403:13-73
+manifest
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:2:1-76:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:17:1-72:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f75585c014057c2af7101f0097c941f9\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:2:1-63:12
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\59c7974e59a21dc5facfb0f1773fa266\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c21f72d29f2a8e4c3fd2c8868dbf2d48\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\708f89b5b8a66ba2f2f6a7c11cbbef61\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.tencent.bugly:crashreport:3.3.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5248119821f088fc929e79c71d16fbc3\jetified-crashreport-3.3.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fe33450efc45d012285a67af13478d4a\jetified-wechat-sdk-android-without-mta-6.6.5.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mintegral.msdk:videojs:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\ff62587b699f7c1823a212e0fe2dc662\jetified-videojs-10.1.31\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\75fae715decf4abbb5fa7d3b1701f57c\jetified-mtgjscommon-10.1.31\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a2c284e97cf414716dbe19003b66b75a\jetified-playercommon-10.1.31\AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:reward:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f0344c482f127efae96e8052e47f923a\jetified-reward-10.1.31\AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5577c950e833b33f6c29f00d40f3e935\jetified-videocommon-10.1.31\AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b5b6d6ab1f8b759121f8be02ae2942d5\jetified-optimizedata-10.1.31\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mintegral.msdk:common:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\48f6cd40c4d8b9cef33e9dee2f0dbe95\jetified-common-10.1.31\AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\25b83521980fe34ce5e298bd2912b870\jetified-mtgdownloads-10.1.31\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\e7aacae800fdc067f45b6a009e86f17a\jetified-mtgbid-10.1.31\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0bcc4b82594053a322989eeabc0b069b\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b085915fb2a2b8c6714553cbab566f28\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\480056f2b46ad5c9434fa3a1e467cb10\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d8538b270dedbd719c054e5cb3c4560\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\7d485c838bde573a9b774202fc501e14\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\21868e54ee8fa7c5ee3c87552712a96c\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\20326d82d50967867c8f1372d24a2b8f\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8a2c5c02b5ee02314eb0ebac7828a4b4\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c38deefe61a4b29c2fedadb5cb828cb9\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\1570490a9aefa8bf7c72c2091e5007e6\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\933284a5ca1fd2cab840868dee97f092\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f66fa33308b0619d349f33f29e1b9234\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0fcb8293f1ad8a72968cee415eb0b621\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\4bf5efb9c6ca1cc1042b4ed281aac9d8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\47969dd378bd395d9c130e31d38327f3\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abef6da21d1c57f9122d146255360cc7\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dc77ec633f2e3b39b00fb97bb0483365\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abca430f327a1ba4137054854d25dfd3\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\836e9858d101fce50deef7223d87d0d6\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\6083e5aff4a41b4b352509ce72ef01fb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\61c8b3f4d5588f8542ced5b4841f6fab\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\df997b88607d3d45e788ff7be2ac00bc\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+	package
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:1-414:12
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:7:5-75
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:15:5-75
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:21:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:22:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:22:22-78
+application
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:25:5-412:19
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:21:5-74:19
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:21:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:26:5-70:19
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:18:5-61:19
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:18:5-61:19
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\59c7974e59a21dc5facfb0f1773fa266\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\59c7974e59a21dc5facfb0f1773fa266\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\75fae715decf4abbb5fa7d3b1701f57c\jetified-mtgjscommon-10.1.31\AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\75fae715decf4abbb5fa7d3b1701f57c\jetified-mtgjscommon-10.1.31\AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a2c284e97cf414716dbe19003b66b75a\jetified-playercommon-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a2c284e97cf414716dbe19003b66b75a\jetified-playercommon-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:reward:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f0344c482f127efae96e8052e47f923a\jetified-reward-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:reward:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f0344c482f127efae96e8052e47f923a\jetified-reward-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5577c950e833b33f6c29f00d40f3e935\jetified-videocommon-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5577c950e833b33f6c29f00d40f3e935\jetified-videocommon-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:common:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\48f6cd40c4d8b9cef33e9dee2f0dbe95\jetified-common-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:common:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\48f6cd40c4d8b9cef33e9dee2f0dbe95\jetified-common-10.1.31\AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\25b83521980fe34ce5e298bd2912b870\jetified-mtgdownloads-10.1.31\AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\25b83521980fe34ce5e298bd2912b870\jetified-mtgdownloads-10.1.31\AndroidManifest.xml:11:5-12:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0bcc4b82594053a322989eeabc0b069b\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0bcc4b82594053a322989eeabc0b069b\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dc77ec633f2e3b39b00fb97bb0483365\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dc77ec633f2e3b39b00fb97bb0483365\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:28:9-41
+	android:hardwareAccelerated
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:29:9-43
+	android:icon
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:27:9-41
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:31:9-40
+	android:networkSecurityConfig
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:30:9-69
+	android:usesCleartextTraffic
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:18:18-53
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:26:9-40
+uses-library#org.apache.http.legacy
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:34:13-50
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:49:9-51:70
+	android:value
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:51:13-67
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:50:13-69
+activity#com.qq.e.union.demo.DemoListActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:55:9-66:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:58:13-60
+	android:launchMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:59:13-44
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:61:13-72
+	android:exported
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:56:13-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:62:13-65:29
+action#android.intent.action.VIEW
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:63:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+activity#com.qq.e.union.demo.SDKVersionActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:67:9-69:75
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:69:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:67:19-53
+activity#com.qq.e.union.demo.SplashActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:70:9-80:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:73:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:75:13-54
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:72:13-83
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:74:13-71
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:71:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:76:13-79:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:27-74
+activity#com.qq.e.union.demo.SplashADActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:81:9-99:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:82:13-45
+intent-filter#action:name:gdt.action.LAUNCH_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:84:13-88:29
+action#gdt.action.LAUNCH_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:85:17-65
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:85:25-62
+meta-data#id
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+	android:value
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+meta-data#content
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+	android:value
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+meta-data#action
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+	android:value
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+activity#com.qq.e.union.demo.UnifiedInterstitialFullScreenADActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:100:9-119:20
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:103:13-75
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:104:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:102:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:101:13-68
+intent-filter#action:name:gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:115:13-118:29
+action#gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:116:17-96
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:116:25-93
+activity#com.qq.e.union.demo.DeviceInfoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:120:9-123:75
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:122:13-63
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:123:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:121:13-47
+activity#com.qq.e.union.demo.adapter.test.activity.MediationTestActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:124:9-127:74
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:126:13-66
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:127:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:125:13-72
+activity#com.qq.e.union.demo.NativeExpressADActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:128:9-148:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:131:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:130:13-69
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:132:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:129:13-52
+intent-filter#action:name:gdt.action.NATIVE_EXPRESS_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:143:13-147:29
+action#gdt.action.NATIVE_EXPRESS_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:144:17-73
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:144:25-70
+activity#com.qq.e.union.demo.NativeExpressDemoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:149:9-154:57
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:152:13-71
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:154:13-54
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:151:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:150:13-54
+activity#com.qq.e.union.demo.NativeExpressRecyclerViewActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:155:9-159:52
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:159:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:158:13-80
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:157:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:156:13-62
+activity#com.qq.e.union.demo.NativeExpressAd2GuideActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:162:9-182:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:164:13-77
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:166:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:163:13-58
+intent-filter#action:name:gdt.action.NATIVE_EXPRESS_2_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:177:13-181:29
+action#gdt.action.NATIVE_EXPRESS_2_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:178:17-75
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:178:25-72
+activity#com.qq.e.union.demo.NativeExpressAd2SimpleDemoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:184:9-188:82
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:188:13-80
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:187:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:186:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:185:13-63
+activity#com.qq.e.union.demo.NativeExpressAd2RecyclerViewActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:189:9-192:83
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:192:13-80
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:191:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:190:13-65
+activity#com.qq.e.union.demo.ExpressRewardVideoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:196:9-215:20
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:198:13-75
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:199:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:197:13-55
+intent-filter#action:name:gdt.action.EXPRESS_REWARD_VIDEO_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:210:13-214:29
+action#gdt.action.EXPRESS_REWARD_VIDEO_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:211:17-79
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:211:25-76
+activity#com.qq.e.union.demo.NativeADUnifiedActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:218:9-239:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:222:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:221:13-71
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:223:13-54
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:220:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:219:13-52
+intent-filter#action:name:gdt.action.NATIVE_CONTAINER+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:234:13-238:29
+action#gdt.action.NATIVE_CONTAINER
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:235:17-70
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:235:25-67
+activity#com.qq.e.union.demo.NativeADUnifiedSampleActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:240:9-243:74
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:243:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:242:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:241:13-58
+activity#com.qq.e.union.demo.NativeADUnifiedListViewActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:244:9-248:52
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:248:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:247:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:246:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:245:13-60
+activity#com.qq.e.union.demo.NativeADUnifiedRecyclerViewActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:249:9-253:52
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:253:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:252:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:251:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:250:13-64
+activity#com.qq.e.union.demo.NativeADUnifiedPreMovieActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:254:9-257:74
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:257:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:256:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:255:13-60
+activity#com.qq.e.union.demo.NativeADUnifiedFullScreenActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:258:9-263:63
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:262:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:261:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:260:13-83
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:263:13-60
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:259:13-62
+activity#com.qq.e.union.demo.NativeADUnifiedFullScreenFeedActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:264:9-269:63
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:268:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:267:13-71
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:266:13-83
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:269:13-60
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:265:13-66
+activity#com.qq.e.union.demo.RewardVideoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:270:9-291:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:274:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:273:13-55
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:275:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:272:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:271:13-48
+intent-filter#action:name:gdt.action.REWARD_VIDEO_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:286:13-290:29
+action#gdt.action.REWARD_VIDEO_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:287:17-71
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:287:25-68
+activity#com.qq.e.union.demo.DemoGameTestActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:292:9-313:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:296:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:295:13-55
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:297:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:294:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:293:13-49
+intent-filter#action:name:gdt.action.DEMO_GAME_TEST_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:308:13-312:29
+action#gdt.action.DEMO_GAME_TEST_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:309:17-73
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:309:25-70
+activity#com.qq.e.union.demo.HybridADActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:314:9-334:20
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:318:13-49
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:317:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:319:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:316:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:315:13-45
+intent-filter#action:name:gdt.action.HYBRID_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:330:13-333:29
+action#gdt.action.HYBRID_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:331:17-65
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:331:25-62
+activity#com.qq.e.union.demo.UnifiedBannerActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:335:9-354:20
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:338:13-66
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:339:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:337:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:336:13-50
+intent-filter#action:name:gdt.action.UNIFIED_BANNER_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:350:13-353:29
+action#gdt.action.UNIFIED_BANNER_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:351:17-73
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:351:25-70
+activity#com.qq.e.union.demo.UnifiedInterstitialADActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:355:9-374:20
+	android:label
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:358:13-75
+	android:windowSoftInputMode
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:359:13-72
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:357:13-83
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:356:13-58
+intent-filter#action:name:gdt.action.UNIFIED_INTERSTITIAL_DEMO+category:name:android.intent.category.DEFAULT
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:370:13-373:29
+action#gdt.action.UNIFIED_INTERSTITIAL_DEMO
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:371:17-79
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:371:25-76
+activity#com.mintegral.msdk.reward.player.MTGRewardVideoActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:378:9-381:74
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:380:13-74
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:381:13-71
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:379:13-83
+activity#com.mintegral.msdk.activity.MTGCommonActivity
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:382:9-387:84
+	android:screenOrientation
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:386:13-49
+	android:exported
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:385:13-36
+	android:configChanges
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:384:13-57
+	android:theme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:387:13-72
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:383:13-73
+receiver#com.mintegral.msdk.click.AppReceiver
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:389:9-394:20
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:389:19-70
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+data:scheme:package
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:390:13-393:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:391:17-78
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:391:25-75
+data
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:392:17-50
+	android:scheme
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:392:23-47
+service#com.mintegral.msdk.shell.MTGService
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:396:9-400:19
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:396:18-68
+intent-filter#action:name:com.mintegral.msdk.download.action
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:397:13-399:29
+action#com.mintegral.msdk.download.action
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:398:17-77
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:398:25-74
+uses-sdk
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f75585c014057c2af7101f0097c941f9\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f75585c014057c2af7101f0097c941f9\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:7:5-9:41
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\9360cf1367a704ccd74509b9c6640d83\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\59c7974e59a21dc5facfb0f1773fa266\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\59c7974e59a21dc5facfb0f1773fa266\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c21f72d29f2a8e4c3fd2c8868dbf2d48\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c21f72d29f2a8e4c3fd2c8868dbf2d48\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\708f89b5b8a66ba2f2f6a7c11cbbef61\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\708f89b5b8a66ba2f2f6a7c11cbbef61\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.3.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5248119821f088fc929e79c71d16fbc3\jetified-crashreport-3.3.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.3.3] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5248119821f088fc929e79c71d16fbc3\jetified-crashreport-3.3.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fe33450efc45d012285a67af13478d4a\jetified-wechat-sdk-android-without-mta-6.6.5.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5.2] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fe33450efc45d012285a67af13478d4a\jetified-wechat-sdk-android-without-mta-6.6.5.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mintegral.msdk:videojs:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\ff62587b699f7c1823a212e0fe2dc662\jetified-videojs-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:videojs:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\ff62587b699f7c1823a212e0fe2dc662\jetified-videojs-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\75fae715decf4abbb5fa7d3b1701f57c\jetified-mtgjscommon-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\75fae715decf4abbb5fa7d3b1701f57c\jetified-mtgjscommon-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a2c284e97cf414716dbe19003b66b75a\jetified-playercommon-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\a2c284e97cf414716dbe19003b66b75a\jetified-playercommon-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:reward:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f0344c482f127efae96e8052e47f923a\jetified-reward-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:reward:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f0344c482f127efae96e8052e47f923a\jetified-reward-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5577c950e833b33f6c29f00d40f3e935\jetified-videocommon-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\5577c950e833b33f6c29f00d40f3e935\jetified-videocommon-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b5b6d6ab1f8b759121f8be02ae2942d5\jetified-optimizedata-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b5b6d6ab1f8b759121f8be02ae2942d5\jetified-optimizedata-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:common:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\48f6cd40c4d8b9cef33e9dee2f0dbe95\jetified-common-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:common:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\48f6cd40c4d8b9cef33e9dee2f0dbe95\jetified-common-10.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\25b83521980fe34ce5e298bd2912b870\jetified-mtgdownloads-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\25b83521980fe34ce5e298bd2912b870\jetified-mtgdownloads-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\e7aacae800fdc067f45b6a009e86f17a\jetified-mtgbid-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\e7aacae800fdc067f45b6a009e86f17a\jetified-mtgbid-10.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0bcc4b82594053a322989eeabc0b069b\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0bcc4b82594053a322989eeabc0b069b\jetified-leakcanary-analyzer-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b085915fb2a2b8c6714553cbab566f28\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b085915fb2a2b8c6714553cbab566f28\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\480056f2b46ad5c9434fa3a1e467cb10\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\480056f2b46ad5c9434fa3a1e467cb10\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d8538b270dedbd719c054e5cb3c4560\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d8538b270dedbd719c054e5cb3c4560\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\7d485c838bde573a9b774202fc501e14\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\7d485c838bde573a9b774202fc501e14\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\21868e54ee8fa7c5ee3c87552712a96c\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\21868e54ee8fa7c5ee3c87552712a96c\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\20326d82d50967867c8f1372d24a2b8f\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\20326d82d50967867c8f1372d24a2b8f\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8a2c5c02b5ee02314eb0ebac7828a4b4\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8a2c5c02b5ee02314eb0ebac7828a4b4\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c38deefe61a4b29c2fedadb5cb828cb9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c38deefe61a4b29c2fedadb5cb828cb9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\1570490a9aefa8bf7c72c2091e5007e6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\1570490a9aefa8bf7c72c2091e5007e6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\933284a5ca1fd2cab840868dee97f092\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\933284a5ca1fd2cab840868dee97f092\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f66fa33308b0619d349f33f29e1b9234\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\f66fa33308b0619d349f33f29e1b9234\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0fcb8293f1ad8a72968cee415eb0b621\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\0fcb8293f1ad8a72968cee415eb0b621\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\4bf5efb9c6ca1cc1042b4ed281aac9d8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\4bf5efb9c6ca1cc1042b4ed281aac9d8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\47969dd378bd395d9c130e31d38327f3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\47969dd378bd395d9c130e31d38327f3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abef6da21d1c57f9122d146255360cc7\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abef6da21d1c57f9122d146255360cc7\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dc77ec633f2e3b39b00fb97bb0483365\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\dc77ec633f2e3b39b00fb97bb0483365\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abca430f327a1ba4137054854d25dfd3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\abca430f327a1ba4137054854d25dfd3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\836e9858d101fce50deef7223d87d0d6\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\836e9858d101fce50deef7223d87d0d6\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\6083e5aff4a41b4b352509ce72ef01fb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\6083e5aff4a41b4b352509ce72ef01fb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\61c8b3f4d5588f8542ced5b4841f6fab\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\61c8b3f4d5588f8542ced5b4841f6fab\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\df997b88607d3d45e788ff7be2ac00bc\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\df997b88607d3d45e788ff7be2ac00bc\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:43:13-45:57
+	android:resource
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:45:17-54
+	android:name
+		ADDED from D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:44:17-67
+permission#${applicationId}.permission.KW_SDK_BROADCAST
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:12:9-68
+permission#com.qq.e.union.demo.permission.KW_SDK_BROADCAST
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:12:9-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:16:5-79
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:12:5-79
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:16:22-76
+uses-permission#${applicationId}.permission.KW_SDK_BROADCAST
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:22-81
+uses-permission#com.qq.e.union.demo.permission.KW_SDK_BROADCAST
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:18:5-83
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:14:5-83
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:14:5-83
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:18:22-80
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:19:5-76
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:13:5-76
+MERGED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:19:22-73
+activity#com.kwad.sdk.page.KsAdWebViewActivity
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:23:13-65
+activity#com.kwad.sdk.page.VideoWebViewActivity
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:26:9-30:80
+	android:screenOrientation
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:28:13-74
+	android:theme
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:30:13-77
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:27:13-66
+activity#com.kwad.sdk.page.KsFullScreenVideoActivity
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:31:9-35:80
+	android:screenOrientation
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:34:13-49
+	android:configChanges
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:35:13-77
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:32:13-71
+activity#com.kwad.sdk.page.KSRewardVideoActivity
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:36:9-40:80
+	android:screenOrientation
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:39:13-49
+	android:configChanges
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:40:13-77
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:37:13-67
+provider#com.kwad.sdk.widget.AdSdkFileProvider
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:42:9-50:20
+	android:grantUriPermissions
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:46:13-47
+	android:authorities
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:44:13-66
+	android:exported
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:43:13-65
+receiver#com.ksad.download.DownloadReceiver
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:53:9-65:20
+	android:exported
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:55:13-36
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:54:13-62
+intent-filter#action:name:download.intent.action.DOWNLOAD_PAUSE
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:56:13-58:29
+action#download.intent.action.DOWNLOAD_PAUSE
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:57:25-77
+intent-filter#action:name:download.intent.action.DOWNLOAD_RESUME
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:59:13-61:29
+action#download.intent.action.DOWNLOAD_RESUME
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:60:17-81
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:60:25-78
+intent-filter#action:name:download.intent.action.DOWNLOAD_CANCEL
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:62:13-64:29
+action#download.intent.action.DOWNLOAD_CANCEL
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:63:25-78
+service#com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:67:9-113
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:67:18-110
+service#com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:68:9-70:49
+	android:process
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:70:13-46
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:69:13-103
+service#com.ksad.download.service.DownloadService
+ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:71:9-73:40
+	android:exported
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from [ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:72:13-69
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:32:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:38:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:37:13-83
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:46:9-59:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:51:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:48:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:50:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:49:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:53:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:52:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:47:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:60:9-69:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:66:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:62:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:65:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:63:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:67:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:64:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:69:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:68:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:61:13-93
+uses-permission#android.permission.INTERNET
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:16:22-74
+service#com.qq.e.comm.DownloadService
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:21:9-24:43
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:24:13-40
+	android:exported
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:22:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:26:9-29:43
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:29:13-40
+	android:configChanges
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:27:13-51
+activity#com.qq.e.ads.PortraitADActivity
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:30:9-34:52
+	android:screenOrientation
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:34:13-49
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:33:13-40
+	android:configChanges
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:31:13-59
+activity#com.qq.e.ads.LandscapeADActivity
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:35:9-39:59
+	android:screenOrientation
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:39:13-56
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:38:13-40
+	android:configChanges
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:37:13-83
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:36:13-60
+activity#com.qq.e.ads.RewardvideoPortraitADActivity
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:41:9-49:20
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:44:13-40
+	android:configChanges
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:43:13-83
+	android:theme
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:45:13-66
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:42:13-70
+meta-data#android.notch_support
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:46:13-48:40
+	android:value
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:48:17-37
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:47:17-53
+activity#com.qq.e.ads.RewardvideoLandscapeADActivity
+ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:51:9-60:20
+	android:screenOrientation
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:55:13-50
+	android:multiprocess
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:54:13-40
+	android:configChanges
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:53:13-83
+	android:theme
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from [com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:52:13-71
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:30:19-91
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:22:13-58

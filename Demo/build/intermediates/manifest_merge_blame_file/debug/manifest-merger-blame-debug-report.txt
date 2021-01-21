@@ -1,0 +1,1092 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qq.e.union.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml
+10
+11    <!-- 相关权限声明 : SDK不强制校验下列权限（即:无下面权限sdk也可正常工作），但建议开发者申请下面权限，尤其是READ_PHONE_STATE权限 -->
+12    <!-- READ_PHONE_STATE权限用于允许SDK获取用户标识,针对单媒体的用户，允许获取权限的，投放定向广告；不允许获取权限的用户，投放通投广告，媒体可以选择是否把用户标识数据提供给优量汇，并承担相应广告填充和eCPM单价下降损失的结果。 -->
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:7:5-75
+13-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:8:5-81
+14-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 如果需要精确定位的话请加上此权限 -->
+15-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:9:5-79
+15-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:9:22-76
+16
+17
+18    <!-- mintegral 简称mtg，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
+19    <!-- mtg所需要的权限，此处因为优量汇SDK已经有相关权限了，此处注释以做提醒 -->
+20    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+21    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+22    <!-- 如果国内流量版本SDK ，以下两条权限必须加上 -->
+23    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+24    <!-- <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> -->
+25    <!-- mtg需要权限结束 -->
+26
+27
+28    <!-- 快手SDK所需相关权限，存储权限，此处配置作用于流量分配功能，关于流量分配，详情请咨询商务 -->
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:21:5-80
+29-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:21:22-77
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:22:5-81
+30-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:22:22-78
+31
+32    <permission
+32-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:11:5-13:47
+33        android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST"
+33-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:12:9-68
+34        android:protectionLevel="signature" />
+34-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:13:9-44
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:16:5-79
+36-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:16:22-76
+37    <uses-permission android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST" />
+37-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:5-84
+37-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:17:22-81
+38    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+38-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:18:5-83
+38-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:18:22-80
+39    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+39-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:19:5-76
+39-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:19:22-73
+40    <uses-permission android:name="android.permission.INTERNET" />
+40-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:11:5-67
+40-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:11:22-64
+41    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+41-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:15:5-79
+41-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:15:22-76
+42    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- 快手需要权限结束 -->
+42-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:16:5-77
+42-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:16:22-74
+43    <application
+43-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:25:5-412:19
+44        android:name="com.qq.e.union.demo.DemoApplication"
+44-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:26:9-40
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.0.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\fb520ca3eef71c75ac477731daeee48b\core-1.0.0\AndroidManifest.xml:22:18-86
+46        android:debuggable="true"
+47        android:hardwareAccelerated="true"
+47-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:29:9-43
+48        android:icon="@drawable/gdticon"
+48-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:27:9-41
+49        android:label="@string/app_name"
+49-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:28:9-41
+50        android:networkSecurityConfig="@xml/network_security_config"
+50-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:30:9-69
+51        android:testOnly="true"
+52        android:theme="@style/AppTheme"
+52-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:31:9-40
+53        android:usesCleartextTraffic="true" >
+53-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:18:18-53
+54
+55        <!-- mtg所需要依赖，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
+56        <uses-library
+56-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:33:9-35:40
+57            android:name="org.apache.http.legacy"
+57-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:34:13-50
+58            android:required="false" />
+58-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:35:13-37
+59        <!-- mtg所需要依赖结束 -->
+60        <!-- targetSDKVersion >= 24时才需要添加这个provider。provider的authorities属性的值为${applicationId}.fileprovider，请开发者根据自己的${applicationId}来设置这个值，例如本例中applicationId为"com.qq.e.union.demo"。 -->
+61        <provider
+62            android:name="com.qq.e.comm.GDTFileProvider"
+62-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:39:13-57
+63            android:authorities="com.qq.e.union.demo.gdt.fileprovider"
+63-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:40:13-68
+64            android:exported="false"
+64-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:41:13-37
+65            android:grantUriPermissions="true" >
+65-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:42:13-47
+66            <meta-data
+66-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:43:13-45:57
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:44:17-67
+68                android:resource="@xml/gdt_file_path" />
+68-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:45:17-54
+69        </provider>
+70
+71        <!-- 此处配置作用于流量分配功能. 如果接入 Google 广告(使用 Admob 包下的任何一个 Adapter ,即接入 Google 广告)，请务必添加 meta-data ，否则不能正常初始化  异常:java.lang.IllegalStateException -->
+72        <meta-data
+72-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:49:9-51:70
+73            android:name="com.google.android.gms.ads.APPLICATION_ID"
+73-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:50:13-69
+74            android:value="ca-app-pub-3940256099942544~3347511713" />
+74-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:51:13-67
+75        <!-- Admob SDK Manifest相关配置到此结束 -->
+76
+77
+78        <!-- 声明该Demo中的组件 -->
+79        <activity
+79-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:55:9-66:20
+80            android:name="com.qq.e.union.demo.DemoListActivity"
+80-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:56:13-45
+81            android:exported="true"
+81-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:57:13-36
+82            android:label="@string/title_activity_maindemo"
+82-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:58:13-60
+83            android:launchMode="singleTask"
+83-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:59:13-44
+84            android:screenOrientation="portrait"
+84-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:60:13-49
+85            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+85-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:61:13-72
+86            <intent-filter>
+86-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:62:13-65:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:63:17-69
+87-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:63:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+89-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:67:9-69:75
+93            android:name="com.qq.e.union.demo.SDKVersionActivity"
+93-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:67:19-53
+94            android:screenOrientation="portrait"
+94-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:68:13-49
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:69:13-72
+96        <activity
+96-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:70:9-80:20
+97            android:name="com.qq.e.union.demo.SplashActivity"
+97-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:71:13-43
+98            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+98-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:72:13-83
+99            android:screenOrientation="portrait"
+99-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:73:13-49
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+100-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:74:13-71
+101            android:windowSoftInputMode="stateHidden" >
+101-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:75:13-54
+102            <intent-filter>
+102-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:76:13-79:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:17-69
+103-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:17-77
+105-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:81:9-99:20
+109            android:name="com.qq.e.union.demo.SplashADActivity"
+109-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:82:13-45
+110            android:screenOrientation="portrait" >
+110-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:83:13-49
+111            <intent-filter>
+111-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:84:13-88:29
+112                <action android:name="gdt.action.LAUNCH_DEMO" />
+112-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:85:17-65
+112-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:85:25-62
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+114-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+115            </intent-filter>
+116
+117            <meta-data
+117-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+118                android:name="id"
+118-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+119                android:value="@string/splash" />
+119-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+120            <meta-data
+120-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+121                android:name="content"
+121-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+122                android:value="开屏广告接入示例" />
+122-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+123            <meta-data
+123-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+124                android:name="action"
+124-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+125                android:value="gdt.action.LAUNCH_DEMO" />
+125-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+126        </activity>
+127        <activity
+127-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:100:9-119:20
+128            android:name="com.qq.e.union.demo.UnifiedInterstitialFullScreenADActivity"
+128-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:101:13-68
+129            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+129-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:102:13-83
+130            android:label="@string/title_activity_unified_interstitial_ad"
+130-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:103:13-75
+131            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+131-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:104:13-72
+132            <meta-data
+132-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+133                android:name="id"
+133-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+134                android:value="@string/unified_interstitial_fullscreen_video" />
+134-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+135            <meta-data
+135-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+136                android:name="content"
+136-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+137                android:value="插屏全屏视频广告接入示例" />
+137-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+138            <meta-data
+138-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+139                android:name="action"
+139-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+140                android:value="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
+140-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+141
+142            <intent-filter>
+142-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:115:13-118:29
+143                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
+143-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:116:17-96
+143-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:116:25-93
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+145-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:120:9-123:75
+149            android:name="com.qq.e.union.demo.DeviceInfoActivity"
+149-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:121:13-47
+150            android:label="@string/title_activity_device_info"
+150-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:122:13-63
+151            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+151-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:123:13-72
+152        <activity
+152-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:124:9-127:74
+153            android:name="com.qq.e.union.demo.adapter.test.activity.MediationTestActivity"
+153-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:125:13-72
+154            android:label="@string/title_activity_test_mediation"
+154-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:126:13-66
+155            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+155-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:127:13-72
+156        <activity
+156-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:128:9-148:20
+157            android:name="com.qq.e.union.demo.NativeExpressADActivity"
+157-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:129:13-52
+158            android:label="@string/title_activity_native_express_ad"
+158-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:130:13-69
+159            android:screenOrientation="portrait"
+159-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:131:13-49
+160            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+160-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:132:13-72
+161            <meta-data
+161-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+162                android:name="id"
+162-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+163                android:value="@string/nativeExpress" />
+163-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+164            <meta-data
+164-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+165                android:name="content"
+165-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+166                android:value="原生广告(模板渲染)接入示例" />
+166-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+167            <meta-data
+167-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+168                android:name="action"
+168-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+169                android:value="gdt.action.NATIVE_EXPRESS_DEMO" />
+169-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+170
+171            <intent-filter>
+171-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:143:13-147:29
+172                <action android:name="gdt.action.NATIVE_EXPRESS_DEMO" />
+172-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:144:17-73
+172-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:144:25-70
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+174-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+175            </intent-filter>
+176        </activity>
+177        <activity
+177-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:149:9-154:57
+178            android:name="com.qq.e.union.demo.NativeExpressDemoActivity"
+178-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:150:13-54
+179            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+179-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:151:13-83
+180            android:label="@string/title_activity_native_express_demo"
+180-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:152:13-71
+181            android:screenOrientation="portrait"
+181-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:153:13-49
+182            android:windowSoftInputMode="stateHidden" />
+182-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:154:13-54
+183        <activity
+183-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:155:9-159:52
+184            android:name="com.qq.e.union.demo.NativeExpressRecyclerViewActivity"
+184-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:156:13-62
+185            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+185-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:157:13-83
+186            android:label="@string/title_activity_native_express_recycler_view"
+186-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:158:13-80
+187            android:screenOrientation="portrait" />
+187-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:159:13-49
+188
+189        <!-- 模板2.0 -->
+190        <activity
+190-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:162:9-182:20
+191            android:name="com.qq.e.union.demo.NativeExpressAd2GuideActivity"
+191-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:163:13-58
+192            android:label="@string/title_activity_native_express_improve_ad"
+192-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:164:13-77
+193            android:screenOrientation="portrait"
+193-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:165:13-49
+194            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+194-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:166:13-72
+195            <meta-data
+195-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+196                android:name="id"
+196-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+197                android:value="@string/nativeExpressImprove" />
+197-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+198            <meta-data
+198-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+199                android:name="content"
+199-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+200                android:value="原生广告(模板2.0)接入示例" />
+200-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+201            <meta-data
+201-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+202                android:name="action"
+202-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+203                android:value="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+203-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+204
+205            <intent-filter>
+205-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:177:13-181:29
+206                <action android:name="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+206-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:178:17-75
+206-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:178:25-72
+207
+208                <category android:name="android.intent.category.DEFAULT" />
+208-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+208-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+209            </intent-filter>
+210        </activity>
+211        <activity
+211-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:184:9-188:82
+212            android:name="com.qq.e.union.demo.NativeExpressAd2SimpleDemoActivity"
+212-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:185:13-63
+213            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+213-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:186:13-83
+214            android:label="@string/title_activity_native_express_recycler_view"
+214-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:188:13-80
+215            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+215-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:187:13-72
+216        <activity
+216-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:189:9-192:83
+217            android:name="com.qq.e.union.demo.NativeExpressAd2RecyclerViewActivity"
+217-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:190:13-65
+218            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+218-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:191:13-83
+219            android:label="@string/title_activity_native_express_recycler_view" />
+219-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:192:13-80
+220        <!-- 模板2.0 -->
+221
+222
+223        <!-- 模板激励视频 -->
+224        <activity
+224-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:196:9-215:20
+225            android:name="com.qq.e.union.demo.ExpressRewardVideoActivity"
+225-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:197:13-55
+226            android:label="@string/title_activity_reward_video_improve_ad"
+226-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:198:13-75
+227            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+227-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:199:13-72
+228            <meta-data
+228-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+229                android:name="id"
+229-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+230                android:value="@string/nativeExpressRewardVideo" />
+230-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+231            <meta-data
+231-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+232                android:name="content"
+232-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+233                android:value="模板激励视频接入示例" />
+233-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+234            <meta-data
+234-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+235                android:name="action"
+235-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+236                android:value="gdt.action.EXPRESS_REWARD_VIDEO_DEMO" />
+236-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+237
+238            <intent-filter>
+238-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:210:13-214:29
+239                <action android:name="gdt.action.EXPRESS_REWARD_VIDEO_DEMO" />
+239-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:211:17-79
+239-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:211:25-76
+240
+241                <category android:name="android.intent.category.DEFAULT" />
+241-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+241-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+242            </intent-filter>
+243        </activity>
+244        <!-- 模板激励视频 -->
+245
+246        <activity
+246-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:218:9-239:20
+247            android:name="com.qq.e.union.demo.NativeADUnifiedActivity"
+247-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:219:13-52
+248            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+248-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:220:13-83
+249            android:label="@string/title_activity_native_unified_demo"
+249-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:221:13-71
+250            android:screenOrientation="portrait"
+250-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:222:13-49
+251            android:windowSoftInputMode="stateHidden" >
+251-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:223:13-54
+252            <meta-data
+252-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+253                android:name="id"
+253-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+254                android:value="@string/nativeContainer" />
+254-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+255            <meta-data
+255-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+256                android:name="content"
+256-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+257                android:value="自渲染 2.0接入示例" />
+257-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+258            <meta-data
+258-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+259                android:name="action"
+259-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+260                android:value="gdt.action.NATIVE_CONTAINER" />
+260-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+261
+262            <intent-filter>
+262-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:234:13-238:29
+263                <action android:name="gdt.action.NATIVE_CONTAINER" />
+263-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:235:17-70
+263-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:235:25-67
+264
+265                <category android:name="android.intent.category.DEFAULT" />
+265-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+265-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+266            </intent-filter>
+267        </activity>
+268        <activity
+268-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:240:9-243:74
+269            android:name="com.qq.e.union.demo.NativeADUnifiedSampleActivity"
+269-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:241:13-58
+270            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+270-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:242:13-83
+271            android:label="@string/title_activity_native_unified_demo" />
+271-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:243:13-71
+272        <activity
+272-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:244:9-248:52
+273            android:name="com.qq.e.union.demo.NativeADUnifiedListViewActivity"
+273-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:245:13-60
+274            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+274-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:246:13-83
+275            android:label="@string/title_activity_native_unified_demo"
+275-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:247:13-71
+276            android:screenOrientation="portrait" />
+276-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:248:13-49
+277        <activity
+277-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:249:9-253:52
+278            android:name="com.qq.e.union.demo.NativeADUnifiedRecyclerViewActivity"
+278-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:250:13-64
+279            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+279-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:251:13-83
+280            android:label="@string/title_activity_native_unified_demo"
+280-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:252:13-71
+281            android:screenOrientation="portrait" />
+281-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:253:13-49
+282        <activity
+282-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:254:9-257:74
+283            android:name="com.qq.e.union.demo.NativeADUnifiedPreMovieActivity"
+283-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:255:13-60
+284            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+284-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:256:13-83
+285            android:label="@string/title_activity_native_unified_demo" />
+285-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:257:13-71
+286        <activity
+286-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:258:9-263:63
+287            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenActivity"
+287-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:259:13-62
+288            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+288-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:260:13-83
+289            android:label="@string/title_activity_native_unified_demo"
+289-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:261:13-71
+290            android:screenOrientation="portrait"
+290-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:262:13-49
+291            android:theme="@android:style/Theme.NoTitleBar" />
+291-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:263:13-60
+292        <activity
+292-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:264:9-269:63
+293            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenFeedActivity"
+293-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:265:13-66
+294            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+294-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:266:13-83
+295            android:label="@string/title_activity_native_unified_demo"
+295-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:267:13-71
+296            android:screenOrientation="portrait"
+296-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:268:13-49
+297            android:theme="@android:style/Theme.NoTitleBar" />
+297-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:269:13-60
+298        <activity
+298-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:270:9-291:20
+299            android:name="com.qq.e.union.demo.RewardVideoActivity"
+299-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:271:13-48
+300            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+300-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:272:13-83
+301            android:label="@string/title_reward_video"
+301-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:273:13-55
+302            android:screenOrientation="portrait"
+302-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:274:13-49
+303            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+303-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:275:13-72
+304            <meta-data
+304-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+305                android:name="id"
+305-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+306                android:value="@string/rewardVideo" />
+306-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+307            <meta-data
+307-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+308                android:name="content"
+308-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+309                android:value="激励视频广告接入示例" />
+309-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+310            <meta-data
+310-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+311                android:name="action"
+311-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+312                android:value="gdt.action.REWARD_VIDEO_DEMO" />
+312-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+313
+314            <intent-filter>
+314-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:286:13-290:29
+315                <action android:name="gdt.action.REWARD_VIDEO_DEMO" />
+315-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:287:17-71
+315-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:287:25-68
+316
+317                <category android:name="android.intent.category.DEFAULT" />
+317-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+317-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+318            </intent-filter>
+319        </activity>
+320        <activity
+320-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:292:9-313:20
+321            android:name="com.qq.e.union.demo.DemoGameTestActivity"
+321-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:293:13-49
+322            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+322-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:294:13-83
+323            android:label="@string/title_reward_video"
+323-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:295:13-55
+324            android:screenOrientation="portrait"
+324-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:296:13-49
+325            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+325-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:297:13-72
+326            <meta-data
+326-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+327                android:name="id"
+327-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+328                android:value="@string/rewardVideo" />
+328-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+329            <meta-data
+329-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+330                android:name="content"
+330-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+331                android:value="试玩广告测试" />
+331-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+332            <meta-data
+332-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+333                android:name="action"
+333-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+334                android:value="gdt.action.DEMO_GAME_TEST_DEMO" />
+334-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+335
+336            <intent-filter>
+336-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:308:13-312:29
+337                <action android:name="gdt.action.DEMO_GAME_TEST_DEMO" />
+337-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:309:17-73
+337-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:309:25-70
+338
+339                <category android:name="android.intent.category.DEFAULT" />
+339-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+339-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+340            </intent-filter>
+341        </activity>
+342        <activity
+342-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:314:9-334:20
+343            android:name="com.qq.e.union.demo.HybridADActivity"
+343-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:315:13-45
+344            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+344-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:316:13-83
+345            android:label="@string/title_hybrid"
+345-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:317:13-49
+346            android:screenOrientation="portrait"
+346-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:318:13-49
+347            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+347-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:319:13-72
+348            <meta-data
+348-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+349                android:name="id"
+349-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+350                android:value="@string/hybrid" />
+350-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+351            <meta-data
+351-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+352                android:name="content"
+352-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+353                android:value="hybrid广告接入示例" />
+353-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+354            <meta-data
+354-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+355                android:name="action"
+355-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+356                android:value="gdt.action.HYBRID_DEMO" />
+356-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+357
+358            <intent-filter>
+358-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:330:13-333:29
+359                <action android:name="gdt.action.HYBRID_DEMO" />
+359-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:331:17-65
+359-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:331:25-62
+360
+361                <category android:name="android.intent.category.DEFAULT" />
+361-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+361-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+362            </intent-filter>
+363        </activity>
+364        <activity
+364-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:335:9-354:20
+365            android:name="com.qq.e.union.demo.UnifiedBannerActivity"
+365-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:336:13-50
+366            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+366-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:337:13-83
+367            android:label="@string/title_activity_unified_banner"
+367-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:338:13-66
+368            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+368-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:339:13-72
+369            <meta-data
+369-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+370                android:name="id"
+370-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+371                android:value="@string/unified_banner" />
+371-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+372            <meta-data
+372-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+373                android:name="content"
+373-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+374                android:value="Banner2.0广告接入示例" />
+374-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+375            <meta-data
+375-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+376                android:name="action"
+376-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+377                android:value="gdt.action.UNIFIED_BANNER_DEMO" />
+377-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+378
+379            <intent-filter>
+379-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:350:13-353:29
+380                <action android:name="gdt.action.UNIFIED_BANNER_DEMO" />
+380-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:351:17-73
+380-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:351:25-70
+381
+382                <category android:name="android.intent.category.DEFAULT" />
+382-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+382-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+383            </intent-filter>
+384        </activity>
+385        <activity
+385-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:355:9-374:20
+386            android:name="com.qq.e.union.demo.UnifiedInterstitialADActivity"
+386-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:356:13-58
+387            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+387-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:357:13-83
+388            android:label="@string/title_activity_unified_interstitial_ad"
+388-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:358:13-75
+389            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+389-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:359:13-72
+390            <meta-data
+390-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:90:13-92:50
+391                android:name="id"
+391-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:91:17-34
+392                android:value="@string/unified_interstitial" />
+392-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:92:17-47
+393            <meta-data
+393-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:93:13-95:44
+394                android:name="content"
+394-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:94:17-39
+395                android:value="插屏2.0广告接入示例" />
+395-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:95:17-41
+396            <meta-data
+396-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:96:13-98:58
+397                android:name="action"
+397-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:97:17-38
+398                android:value="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
+398-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:98:17-55
+399
+400            <intent-filter>
+400-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:370:13-373:29
+401                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
+401-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:371:17-79
+401-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:371:25-76
+402
+403                <category android:name="android.intent.category.DEFAULT" />
+403-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:17-76
+403-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:64:27-73
+404            </intent-filter>
+405        </activity>
+406
+407        <!-- MTG激励视频所需的Activity，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
+408        <activity
+408-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:378:9-381:74
+409            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+409-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:379:13-83
+410            android:configChanges="orientation|keyboardHidden|screenSize"
+410-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:380:13-74
+411            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+411-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:381:13-71
+412        <activity
+412-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:382:9-387:84
+413            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+413-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:383:13-73
+414            android:configChanges="keyboard|orientation"
+414-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:384:13-57
+415            android:exported="true"
+415-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:385:13-36
+416            android:screenOrientation="portrait"
+416-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:386:13-49
+417            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+417-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:387:13-72
+418        <!-- 国内流量版本必需，海外版本可以不添加 -->
+419        <receiver android:name="com.mintegral.msdk.click.AppReceiver" >
+419-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:389:9-394:20
+419-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:389:19-70
+420            <intent-filter>
+420-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:390:13-393:29
+421                <action android:name="android.intent.action.PACKAGE_ADDED" />
+421-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:391:17-78
+421-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:391:25-75
+422
+423                <data android:scheme="package" />
+423-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:392:17-50
+423-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:392:23-47
+424            </intent-filter>
+425        </receiver>
+426        <!-- 国内流量必需，海外版本可以不添加 -->
+427        <service android:name="com.mintegral.msdk.shell.MTGService" >
+427-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:396:9-400:19
+427-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:396:18-68
+428            <intent-filter>
+428-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:397:13-399:29
+429                <action android:name="com.mintegral.msdk.download.action" />
+429-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:398:17-77
+429-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:398:25-74
+430            </intent-filter>
+431        </service>
+432        <!-- 国内流量版本必需，海外版本可以不添加。 -->
+433        <provider
+434            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+434-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:403:13-73
+435            android:authorities="com.qq.e.union.demo.mtgFileProvider"
+435-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:404:13-67
+436            android:exported="false"
+436-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:405:13-37
+437            android:grantUriPermissions="true" >
+437-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:406:13-47
+438            <meta-data
+438-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:43:13-45:57
+439                android:name="android.support.FILE_PROVIDER_PATHS"
+439-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:44:17-67
+440                android:resource="@xml/mtg_provider_paths" />
+440-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:45:17-54
+441        </provider>
+442        <!-- MTG所需的组件结束 -->
+443        <activity
+443-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:22:9-25:52
+444            android:name="com.kwad.sdk.page.KsAdWebViewActivity"
+444-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:23:13-65
+445            android:configChanges="keyboardHidden|orientation|screenSize"
+445-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:24:13-74
+446            android:screenOrientation="portrait" />
+446-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:25:13-49
+447        <activity
+447-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:26:9-30:80
+448            android:name="com.kwad.sdk.page.VideoWebViewActivity"
+448-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:27:13-66
+449            android:configChanges="keyboardHidden|orientation|screenSize"
+449-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:28:13-74
+450            android:screenOrientation="portrait"
+450-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:29:13-49
+451            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+451-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:30:13-77
+452        <activity
+452-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:31:9-35:80
+453            android:name="com.kwad.sdk.page.KsFullScreenVideoActivity"
+453-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:32:13-71
+454            android:configChanges="keyboardHidden|orientation|screenSize"
+454-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:33:13-74
+455            android:screenOrientation="portrait"
+455-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:34:13-49
+456            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+456-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:35:13-77
+457        <activity
+457-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:36:9-40:80
+458            android:name="com.kwad.sdk.page.KSRewardVideoActivity"
+458-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:37:13-67
+459            android:configChanges="keyboardHidden|orientation|screenSize"
+459-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:38:13-74
+460            android:screenOrientation="portrait"
+460-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:39:13-49
+461            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+461-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:40:13-77
+462
+463        <provider
+463-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:42:9-50:20
+464            android:name="com.kwad.sdk.widget.AdSdkFileProvider"
+464-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:43:13-65
+465            android:authorities="com.qq.e.union.demo.adFileProvider"
+465-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:44:13-66
+466            android:exported="false"
+466-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:45:13-37
+467            android:grantUriPermissions="true" >
+467-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:46:13-47
+468            <meta-data
+468-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:43:13-45:57
+469                android:name="android.support.FILE_PROVIDER_PATHS"
+469-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:44:17-67
+470                android:resource="@xml/ksad_file_paths" />
+470-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:45:17-54
+471        </provider> <!-- 下载相关 -->
+472        <receiver
+472-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:53:9-65:20
+473            android:name="com.ksad.download.DownloadReceiver"
+473-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:54:13-62
+474            android:exported="true" >
+474-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:55:13-36
+475            <intent-filter>
+475-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:56:13-58:29
+476                <action android:name="download.intent.action.DOWNLOAD_PAUSE" />
+476-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:57:17-80
+476-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:57:25-77
+477            </intent-filter>
+478            <intent-filter>
+478-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:59:13-61:29
+479                <action android:name="download.intent.action.DOWNLOAD_RESUME" />
+479-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:60:17-81
+479-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:60:25-78
+480            </intent-filter>
+481            <intent-filter>
+481-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:62:13-64:29
+482                <action android:name="download.intent.action.DOWNLOAD_CANCEL" />
+482-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:63:17-81
+482-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:63:25-78
+483            </intent-filter>
+484        </receiver>
+485
+486        <service android:name="com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+486-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:67:9-113
+486-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:67:18-110
+487        <service
+487-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:68:9-70:49
+488            android:name="com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService"
+488-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:69:13-103
+489            android:process=":filedownloader" />
+489-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:70:13-46
+490        <service
+490-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:71:9-73:40
+491            android:name="com.ksad.download.service.DownloadService"
+491-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:72:13-69
+492            android:exported="false" />
+492-->[ks_adsdk-2.2.4.aar] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\8d4defe3d3a81a90a474e1834991fbe4\jetified-ks_adsdk-2.2.4\AndroidManifest.xml:73:13-37
+493        <service
+493-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:27:9-30:45
+494            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+494-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:28:13-80
+495            android:enabled="false"
+495-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:29:13-36
+496            android:process=":leakcanary" />
+496-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:30:13-42
+497        <service
+497-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:31:9-34:45
+498            android:name="com.squareup.leakcanary.DisplayLeakService"
+498-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:32:13-70
+499            android:enabled="false"
+499-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:33:13-36
+500            android:process=":leakcanary" />
+500-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:34:13-42
+501
+502        <provider
+502-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:36:9-44:20
+503            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+503-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:37:13-83
+504            android:authorities="com.squareup.leakcanary.fileprovider.com.qq.e.union.demo"
+504-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:38:13-88
+505            android:exported="false"
+505-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:39:13-37
+506            android:grantUriPermissions="true" >
+506-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:40:13-47
+507            <meta-data
+507-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:43:13-45:57
+508                android:name="android.support.FILE_PROVIDER_PATHS"
+508-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:44:17-67
+509                android:resource="@xml/leak_canary_file_paths" />
+509-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:45:17-54
+510        </provider>
+511
+512        <activity
+512-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:46:9-59:20
+513            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+513-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:47:13-80
+514            android:enabled="false"
+514-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:48:13-36
+515            android:icon="@mipmap/leak_canary_icon"
+515-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:49:13-52
+516            android:label="@string/leak_canary_display_activity_label"
+516-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:50:13-71
+517            android:process=":leakcanary"
+517-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:51:13-42
+518            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
+518-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:52:13-76
+519            android:theme="@style/leak_canary_LeakCanary.Base" >
+519-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:53:13-63
+520            <intent-filter>
+520-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:76:13-79:29
+521                <action android:name="android.intent.action.MAIN" />
+521-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:17-69
+521-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:77:25-66
+522
+523                <category android:name="android.intent.category.LAUNCHER" />
+523-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:17-77
+523-->D:\workspace\MyApplication14\Demo\src\main\AndroidManifest.xml:78:27-74
+524            </intent-filter>
+525        </activity>
+526        <activity
+526-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:60:9-69:68
+527            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+527-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:61:13-93
+528            android:enabled="false"
+528-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:62:13-36
+529            android:excludeFromRecents="true"
+529-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:63:13-46
+530            android:icon="@mipmap/leak_canary_icon"
+530-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:64:13-52
+531            android:label="@string/leak_canary_storage_permission_activity_label"
+531-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:65:13-82
+532            android:process=":leakcanary"
+532-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:66:13-42
+533            android:roundIcon="@mipmap/leak_canary_icon"
+533-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:67:13-57
+534            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
+534-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:68:13-76
+535            android:theme="@style/leak_canary_Theme.Transparent" /> <!-- 声明SDK所需要的组件 -->
+535-->[com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\10bcacfbf9149632ed770a3292eb2fda\jetified-leakcanary-android-1.6.1\AndroidManifest.xml:69:13-65
+536        <service
+536-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:21:9-24:43
+537            android:name="com.qq.e.comm.DownloadService"
+537-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:22:13-57
+538            android:exported="false"
+538-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:23:13-37
+539            android:multiprocess="true" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
+539-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:24:13-40
+540        <activity
+540-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:26:9-29:43
+541            android:name="com.qq.e.ads.ADActivity"
+541-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:27:13-51
+542            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+542-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:28:13-83
+543            android:multiprocess="true" />
+543-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:29:13-40
+544        <activity
+544-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:30:9-34:52
+545            android:name="com.qq.e.ads.PortraitADActivity"
+545-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:31:13-59
+546            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+546-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:32:13-83
+547            android:multiprocess="true"
+547-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:33:13-40
+548            android:screenOrientation="portrait" />
+548-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:34:13-49
+549        <activity
+549-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:35:9-39:59
+550            android:name="com.qq.e.ads.LandscapeADActivity"
+550-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:36:13-60
+551            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+551-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:37:13-83
+552            android:multiprocess="true"
+552-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:38:13-40
+553            android:screenOrientation="sensorLandscape" /> <!-- 用于激励视频可选广告的竖屏透明背景activity -->
+553-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:39:13-56
+554        <activity
+554-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:41:9-49:20
+555            android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
+555-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:42:13-70
+556            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+556-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:43:13-83
+557            android:multiprocess="true"
+557-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:44:13-40
+558            android:theme="@android:style/Theme.Light.NoTitleBar" >
+558-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:45:13-66
+559            <meta-data
+559-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:46:13-48:40
+560                android:name="android.notch_support"
+560-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:47:17-53
+561                android:value="true" />
+561-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:48:17-37
+562        </activity> <!-- 用于激励视频可选广告的横屏透明背景activity -->
+563        <activity
+563-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:51:9-60:20
+564            android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
+564-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:52:13-71
+565            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+565-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:53:13-83
+566            android:multiprocess="true"
+566-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:54:13-40
+567            android:screenOrientation="landscape"
+567-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:55:13-50
+568            android:theme="@android:style/Theme.Light.NoTitleBar" >
+568-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:56:13-66
+569            <meta-data
+569-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:46:13-48:40
+570                android:name="android.notch_support"
+570-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:47:17-53
+571                android:value="true" />
+571-->[com.qq.e.union:union:4.330.1200] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d74adf5466a75cb6dae9f80740940905\jetified-union-4.330.1200\AndroidManifest.xml:48:17-37
+572        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+573        <activity
+573-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:26:9-29:64
+574            android:name="com.google.android.gms.ads.AdActivity"
+574-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:27:13-65
+575            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+575-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:28:13-122
+576            android:theme="@android:style/Theme.Translucent" />
+576-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:29:13-61
+577        <activity
+577-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:30:9-31:52
+578            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+578-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:30:19-91
+579            android:theme="@style/Theme.IAPTheme" />
+579-->[com.google.android.gms:play-services-ads:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d1f9375217d00e864df7367dc9991dc9\jetified-play-services-ads-8.3.0\AndroidManifest.xml:31:13-50
+580
+581        <meta-data
+581-->[com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:21:9-23:69
+582            android:name="com.google.android.gms.version"
+582-->[com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:22:13-58
+583            android:value="@integer/google_play_services_version" />
+583-->[com.google.android.gms:play-services-basement:8.3.0] C:\Users\EDZ\.gradle\caches\transforms-2\files-2.1\d8985bb69dc0114dd200fce7b5c192ab\jetified-play-services-basement-8.3.0\AndroidManifest.xml:23:13-66
+584    </application>
+585
+586</manifest>
